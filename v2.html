@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta charset="utf-8">
+<title>滋賀三菱農機販売株式会社</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&amp;family=Zen+Kaku+Gothic+New:wght@500;700;900&amp;family=Outfit:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Noto Sans JP',sans-serif;color:#22302A;background:#fff;-webkit-font-smoothing:antialiased}
+a{color:#1C4A2E;text-decoration:none}
+a:hover{color:#D7000F}
+</style>
+</helmet>
+<div data-screen-label="TOP v2" style="min-width:1240px">
+  <!-- header -->
+  <header style="position:sticky;top:0;z-index:50;background:rgba(255,255,255,0.94);backdrop-filter:blur(10px);border-bottom:1px solid #ECF1EC">
+    <div style="max-width:1400px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;gap:16px">
+      <a href="#top" style="display:flex;align-items:center;gap:12px;flex-shrink:0;white-space:nowrap">
+        <span style="width:13px;height:13px;background:#D7000F;transform:rotate(45deg);display:block;flex-shrink:0"></span>
+        <span style="display:flex;flex-direction:column">
+          <span style="font-family:'Outfit',sans-serif;font-size:16px;letter-spacing:0.1em;color:#8AA192">SHIGA MITSUBISHI NOKI</span>
+          <span style="font-size:20px;font-weight:900;color:#17422A;letter-spacing:0.02em">滋賀三菱農機販売株式会社</span>
+        </span>
+      </a>
+      <nav style="display:flex;gap:18px;font-size:16px;font-weight:700;margin-left:auto;white-space:nowrap">
+        <a href="#about" style="color:#2A3B31;white-space:nowrap" style-hover="color:#D7000F">会社案内</a>
+        <a href="#services" style="color:#2A3B31;white-space:nowrap" style-hover="color:#D7000F">取扱商品・サービス</a>
+        <a href="#used" style="color:#2A3B31;white-space:nowrap" style-hover="color:#D7000F">中古農機情報</a>
+        <a href="#news" style="color:#2A3B31;white-space:nowrap" style-hover="color:#D7000F">お知らせ・イベント</a>
+        <a href="#shops" style="color:#2A3B31;white-space:nowrap" style-hover="color:#D7000F">営業所・アクセス</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:16px;flex-shrink:0;white-space:nowrap">
+        <div style="font-family:'Outfit',sans-serif;font-size:18px;font-weight:600;color:#17422A;letter-spacing:0.02em">0748-42-0811</div>
+        <a href="#contact" style="background:#D7000F;color:#fff;font-size:16px;font-weight:700;letter-spacing:0.06em;padding:13px 16px;display:block" style-hover="background:#B4000C;color:#fff">お問い合わせ</a>
+      </div>
+    </div>
+  </header>
+  <!-- hero -->
+  <section id="top" style="position:relative;height:720px;overflow:hidden">
+    <div style="position:absolute;inset:0">
+      <image-slot id="hero-main" src="./images/hero-main.jpg" shape="rect" placeholder="メイン画像：トラクター＋田園風景（人物入り推奨）"></image-slot>
+    </div>
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,30,19,0.18) 0%,rgba(10,30,19,0.05) 45%,rgba(10,30,19,0.62) 100%);pointer-events:none"></div>
+    <div style="position:absolute;left:0;right:0;bottom:0;pointer-events:none">
+      <div style="max-width:1320px;margin:0 auto;padding:0 40px 72px">
+        <div style="font-family:'Outfit',sans-serif;font-size:16px;font-weight:500;letter-spacing:0.42em;color:#fff;opacity:0.85;margin-bottom:22px">SHIGA MITSUBISHI NOKI — SINCE 1958</div>
+        <h1 style="font-family:'Zen Kaku Gothic New',sans-serif;font-weight:900;font-size:46px;line-height:1.5;color:#fff;margin:0 0 22px;letter-spacing:0.04em;text-shadow:0 2px 24px rgba(0,0,0,0.35)">農機のことなら、<br>地元の三菱系ディーラーへ。</h1>
+        <p style="font-size:16px;line-height:2;color:#EAF2EB;margin:0 0 34px;letter-spacing:0.04em">東近江・湖東・彦根の4拠点。販売から修理・点検・部品まで、創業68年の技術でお応えします。</p>
+        <div style="display:flex;gap:14px;pointer-events:auto">
+          <a href="#contact" style="background:#D7000F;color:#fff;font-size:16px;font-weight:700;letter-spacing:0.08em;padding:17px 40px" style-hover="background:#B4000C;color:#fff">修理・点検を依頼する →</a>
+          <a href="#used" style="background:rgba(255,255,255,0.94);color:#17422A;font-size:16px;font-weight:700;letter-spacing:0.08em;padding:17px 40px" style-hover="background:#fff;color:#D7000F">中古農機を探す →</a>
+        </div>
+      </div>
+    </div>
+    <div style="position:absolute;right:40px;bottom:0;display:flex;flex-direction:column;align-items:center;gap:10px;pointer-events:none">
+      <span style="font-family:'Outfit',sans-serif;font-size:16px;letter-spacing:0.3em;color:#fff;writing-mode:vertical-rl">SCROLL</span>
+      <span style="width:1px;height:56px;background:rgba(255,255,255,0.7);display:block"></span>
+    </div>
+  </section>
+  <!-- important ticker -->
+  <sc-if value="{{ showTicker }}" hint-placeholder-val="{{ true }}">
+    <a href="#news" style="display:block;background:#fff;border-bottom:1px solid #ECF1EC">
+      <div style="max-width:1320px;margin:0 auto;padding:16px 40px;display:flex;align-items:center;gap:18px;font-size:16px">
+        <span style="background:#D7000F;color:#fff;font-size:16px;font-weight:700;letter-spacing:0.14em;padding:4px 14px;flex-shrink:0">重要</span>
+        <span style="font-family:'Outfit',sans-serif;color:#8AA192;font-weight:500">2026.03.06</span>
+        <span style="color:#22302A;font-weight:500">三菱マヒンドラ農機の事業方針変更に関するお知らせ</span>
+        <span style="margin-left:auto;color:#D7000F;font-weight:700;font-size:16px">→</span>
+      </div>
+    </a>
+  </sc-if>
+  <!-- ABOUT -->
+  <section id="about" data-screen-label="ABOUT" style="background:#fff url('./patterns/seigaiha.svg') repeat;padding:150px 40px 140px">
+    <div style="max-width:1320px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:90px;align-items:center">
+      <div>
+        <div style="display:flex;align-items:baseline;gap:20px;margin-bottom:36px">
+          <h2 style="font-family:'Outfit',sans-serif;font-size:52px;font-weight:500;color:#17422A;margin:0;letter-spacing:-0.01em;line-height:1">About us</h2>
+          <span style="font-size:34px;font-weight:900;color:#D7000F;letter-spacing:0.06em">会社案内</span>
+        </div>
+        <h3 style="font-family:'Zen Kaku Gothic New',sans-serif;font-size:28px;font-weight:700;color:#22302A;line-height:1.85;margin:0 0 28px;letter-spacing:0.05em">昭和33年創業。<br>地元の農業と、68年。</h3>
+        <p style="font-size:16px;line-height:2.3;color:#4A5A50;margin:0 0 44px;letter-spacing:0.03em;max-width:520px">福永農機商会として能登川で創業して以来、東近江・湖東・彦根のみなさまの農機を守り続けてきました。三菱マヒンドラ農機の正規ディーラーとして、確かな技術と純正部品で対応します。</p>
+        <a href="#about" style="display:inline-flex;align-items:center;gap:14px;font-size:16px;font-weight:700;letter-spacing:0.1em;color:#17422A" style-hover="color:#D7000F"><span style="width:48px;height:1px;background:#17422A;display:block"></span>会社案内・沿革を見る</a>
+      </div>
+      <div style="height:520px">
+        <image-slot id="about-1" src="./images/about-1.jpg" shape="rect" placeholder="写真：本社社屋 または 整備風景"></image-slot>
+      </div>
+    </div>
+  </section>
+  <!-- SERVICE -->
+  <section id="services" data-screen-label="SERVICE" style="background:#F5F8F4 url('./patterns/dots.svg') repeat;padding:140px 40px">
+    <div style="max-width:1320px;margin:0 auto">
+      <div style="display:flex;align-items:baseline;gap:20px;margin-bottom:18px">
+        <h2 style="font-family:'Outfit',sans-serif;font-size:52px;font-weight:500;color:#17422A;margin:0;letter-spacing:-0.01em;line-height:1">Service</h2>
+        <span style="font-size:34px;font-weight:900;color:#D7000F;letter-spacing:0.06em">わたしたちができること</span>
+      </div>
+      <p style="font-size:16px;color:#5E6E64;margin:0 0 70px;letter-spacing:0.04em">農機の「買う」「直す」「使い続ける」を、すべて地元で。</p>
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:44px">
+        <div style="display:flex;flex-direction:column;gap:22px">
+          <div style="height:280px"><image-slot id="svc-1" src="./images/svc-1.jpg" shape="rect" placeholder="写真：農業機械の販売"></image-slot></div>
+          <div style="display:flex;align-items:baseline;gap:14px;border-top:1px solid #17422A;padding-top:20px">
+            <span style="font-family:'Outfit',sans-serif;font-size:16px;font-weight:500;color:#D7000F;letter-spacing:0.1em">01</span>
+            <h3 style="font-family:'Zen Kaku Gothic New',sans-serif;font-size:20px;font-weight:700;color:#17422A;margin:0;letter-spacing:0.06em">農業機械の販売</h3>
+          </div>
+          <p style="font-size:16px;line-height:2.1;color:#4A5A50;margin:0;flex:1">三菱マヒンドラ農機をはじめ20社以上を取扱。機種選定から補助金のご相談まで。</p>
+          <a href="#machines" style="display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:700;letter-spacing:0.1em;color:#17422A" style-hover="color:#D7000F"><span style="width:36px;height:1px;background:#17422A;display:block"></span>取扱商品を見る</a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:22px">
+          <div style="height:280px"><image-slot id="svc-2" src="./images/svc-2.jpg" shape="rect" placeholder="写真：修理・点検・整備"></image-slot></div>
+          <div style="display:flex;align-items:baseline;gap:14px;border-top:1px solid #17422A;padding-top:20px">
+            <span style="font-family:'Outfit',sans-serif;font-size:16px;font-weight:500;color:#D7000F;letter-spacing:0.1em">02</span>
+            <h3 style="font-family:'Zen Kaku Gothic New',sans-serif;font-size:20px;font-weight:700;color:#17422A;margin:0;letter-spacing:0.06em">修理・点検・整備</h3>
+          </div>
+          <p style="font-size:16px;line-height:2.1;color:#4A5A50;margin:0;flex:1">故障時の出張修理、シーズン前点検、無料点検会。純正部品の供給も対応。</p>
+          <a href="#contact" style="display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:700;letter-spacing:0.1em;color:#17422A" style-hover="color:#D7000F"><span style="width:36px;height:1px;background:#17422A;display:block"></span>修理を依頼する</a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:22px">
+          <div style="height:280px"><image-slot id="svc-3" src="./images/svc-3.jpg" shape="rect" placeholder="写真：中古農機の売買"></image-slot></div>
+          <div style="display:flex;align-items:baseline;gap:14px;border-top:1px solid #17422A;padding-top:20px">
+            <span style="font-family:'Outfit',sans-serif;font-size:16px;font-weight:500;color:#D7000F;letter-spacing:0.1em">03</span>
+            <h3 style="font-family:'Zen Kaku Gothic New',sans-serif;font-size:20px;font-weight:700;color:#17422A;margin:0;letter-spacing:0.06em">中古農機の売買</h3>
+          </div>
+          <p style="font-size:16px;line-height:2.1;color:#4A5A50;margin:0;flex:1">下取り・買取から中古販売まで。予算に合わせた1台をご提案します。</p>
+          <a href="#used" style="display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:700;letter-spacing:0.1em;color:#17422A" style-hover="color:#D7000F"><span style="width:36px;height:1px;background:#17422A;display:block"></span>在庫を見る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- MACHINES -->
+  <section id="machines" data-screen-label="MACHINES" style="background:#fff;padding:140px 40px">
+    <div style="max-width:1320px;margin:0 auto">
+      <div style="display:flex;align-items:baseline;gap:20px;margin-bottom:18px">
+        <h2 style="font-family:'Outfit',sans-serif;font-size:52px;font-weight:500;color:#17422A;margin:0;letter-spacing:-0.01em;line-height:1">Machines</h2>
+        <span style="font-size:34px;font-weight:900;color:#D7000F;letter-spacing:0.06em">取扱機種</span>
+      </div>
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:64px">
+        <p style="font-size:16px;color:#5E6E64;margin:0;letter-spacing:0.04em">稲作に必要な機械を、ほぼすべて取り揃えています。</p>
+        <a href="#contact" style="display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:700;letter-spacing:0.1em;color:#17422A;flex-shrink:0" style-hover="color:#D7000F"><span style="width:36px;height:1px;background:#17422A;display:block"></span>すべて見る</a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:36px 28px">
+        <a href="#contact" style="display:flex;flex-direction:column;gap:14px" style-hover="color:#D7000F">
+          <div style="height:180px;background:#F5F8F4"><image-slot id="cat-1" src="./images/cat-1.jpg" shape="rect" placeholder="トラクタ"></image-slot></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E3EAE2;padding-bottom:12px"><span style="font-size:16px;font-weight:700;color:#22302A;letter-spacing:0.06em">トラクタ</span><span style="color:#D7000F;font-size:16px">→</span></div>
+        </a>
+        <a href="#contact" style="display:flex;flex-direction:column;gap:14px" style-hover="color:#D7000F">
+          <div style="height:180px;background:#F5F8F4"><image-slot id="cat-2" src="./images/cat-2.jpg" shape="rect" placeholder="コンバイン"></image-slot></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E3EAE2;padding-bottom:12px"><span style="font-size:16px;font-weight:700;color:#22302A;letter-spacing:0.06em">コンバイン</span><span style="color:#D7000F;font-size:16px">→</span></div>
+        </a>
+        <a href="#contact" style="display:flex;flex-direction:column;gap:14px" style-hover="color:#D7000F">
+          <div style="height:180px;background:#F5F8F4"><image-slot id="cat-3" src="./images/cat-3.jpg" shape="rect" placeholder="田植機"></image-slot></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E3EAE2;padding-bottom:12px"><span style="font-size:16px;font-weight:700;color:#22302A;letter-spacing:0.06em">田植機</span><span style="color:#D7000F;font-size:16px">→</span></div>
+        </a>
+        <a href="#contact" style="display:flex;flex-direction:column;gap:14px" style-hover="color:#D7000F">
+          <div style="height:180px;background:#F5F8F4"><image-slot id="cat-4" src="./images/cat-4.jpg" shape="rect" placeholder="耕うん機・管理機"></image-slot></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E3EAE2;padding-bottom:12px"><span style="font-size:16px;font-weight:700;color:#22302A;letter-spacing:0.06em">耕うん機・管理機</span><span style="color:#D7000F;font-size:16px">→</span></div>
+        </a>
+        <a href="#contact" style="display:flex;flex-direction:column;gap:14px" style-hover="color:#D7000F">
+          <div style="height:180px;background:#F5F8F4"><image-slot id="cat-5" src="./images/cat-5.jpg" shape="rect" placeholder="乾燥機"></image-slot></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E3EAE2;padding-bottom:12px"><span style="font-size:16px;font-weight:700;color:#22302A;letter-spacing:0.06em">乾燥機</span><span style="color:#D7000F;font-size:16px">→</span></div>
+        </a>
+        <a href="#contact" style="display:flex;flex-direction:column;gap:14px" style-hover="color:#D7000F">
+          <div style="height:180px;background:#F5F8F4"><image-slot id="cat-6" src="./images/cat-6.jpg" shape="rect" placeholder="もみすり機・米選機"></image-slot></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E3EAE2;padding-bottom:12px"><span style="font-size:16px;font-weight:700;color:#22302A;letter-spacing:0.06em">もみすり機・米選機</span><span style="color:#D7000F;font-size:16px">→</span></div>
+        </a>
+        <a href="#contact" style="display:flex;flex-direction:column;gap:14px" style-hover="color:#D7000F">
+          <div style="height:180px;background:#F5F8F4"><image-slot id="cat-7" src="./images/cat-7.jpg" shape="rect" placeholder="草刈機"></image-slot></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E3EAE2;padding-bottom:12px"><span style="font-size:16px;font-weight:700;color:#22302A;letter-spacing:0.06em">草刈機</span><span style="color:#D7000F;font-size:16px">→</span></div>
+        </a>
+        <a href="#contact" style="display:flex;flex-direction:column;gap:14px" style-hover="color:#D7000F">
+          <div style="height:180px;background:#F5F8F4"><image-slot id="cat-8" src="./images/cat-8.jpg" shape="rect" placeholder="作業機・パーツ"></image-slot></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E3EAE2;padding-bottom:12px"><span style="font-size:16px;font-weight:700;color:#22302A;letter-spacing:0.06em">作業機・パーツ</span><span style="color:#D7000F;font-size:16px">→</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- USED -->
+  <section id="used" data-screen-label="USED" style="background:#F1F6F0 url('./patterns/stripe.svg') repeat;padding:140px 40px">
+    <div style="max-width:1320px;margin:0 auto">
+      <div style="display:flex;align-items:baseline;gap:20px;margin-bottom:18px">
+        <h2 style="font-family:'Outfit',sans-serif;font-size:52px;font-weight:500;color:#17422A;margin:0;letter-spacing:-0.01em;line-height:1">Used</h2>
+        <span style="font-size:34px;font-weight:900;color:#D7000F;letter-spacing:0.06em">中古農機 最新入荷</span>
+      </div>
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:64px">
+        <p style="font-size:16px;color:#5E6E64;margin:0;letter-spacing:0.04em">状態・年式・使用時間まで公開。気になる1台はお気軽にお問い合わせください。</p>
+        <a href="#contact" style="display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:700;letter-spacing:0.1em;color:#17422A;flex-shrink:0" style-hover="color:#D7000F"><span style="width:36px;height:1px;background:#17422A;display:block"></span>在庫をすべて見る</a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px">
+        <div style="background:#fff;border:1px solid #E8EEE7;display:flex;flex-direction:column">
+          <div style="height:190px;position:relative">
+            <image-slot id="used-1" src="./images/used-1.jpg" shape="rect" placeholder="商品写真"></image-slot>
+            <span style="position:absolute;top:0;left:0;background:#17422A;color:#fff;font-size:16px;font-weight:700;letter-spacing:0.1em;padding:5px 14px;pointer-events:none">トラクタ</span>
+          </div>
+          <div style="padding:22px 22px 24px;display:flex;flex-direction:column;gap:7px">
+            <div style="font-size:17px;font-weight:900;color:#22302A;letter-spacing:0.04em">三菱 GA435</div>
+            <div style="font-size:16px;color:#5E6E64;letter-spacing:0.03em">2018年式／使用420時間</div>
+            <div style="font-size:16px;font-weight:700;color:#D7000F;border-top:1px solid #EEF2ED;padding-top:10px;margin-top:6px">価格：お問い合わせください</div>
+            <div style="font-size:16px;color:#8AA192">在庫：能登川営業所</div>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #E8EEE7;display:flex;flex-direction:column">
+          <div style="height:190px;position:relative">
+            <image-slot id="used-2" src="./images/used-2.jpg" shape="rect" placeholder="商品写真"></image-slot>
+            <span style="position:absolute;top:0;left:0;background:#17422A;color:#fff;font-size:16px;font-weight:700;letter-spacing:0.1em;padding:5px 14px;pointer-events:none">コンバイン</span>
+          </div>
+          <div style="padding:22px 22px 24px;display:flex;flex-direction:column;gap:7px">
+            <div style="font-size:17px;font-weight:900;color:#22302A;letter-spacing:0.04em">三菱 VY446</div>
+            <div style="font-size:16px;color:#5E6E64;letter-spacing:0.03em">2016年式／使用310時間</div>
+            <div style="font-size:16px;font-weight:700;color:#D7000F;border-top:1px solid #EEF2ED;padding-top:10px;margin-top:6px">価格：お問い合わせください</div>
+            <div style="font-size:16px;color:#8AA192">在庫：八日市営業所</div>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #E8EEE7;display:flex;flex-direction:column">
+          <div style="height:190px;position:relative">
+            <image-slot id="used-3" src="./images/used-3.jpg" shape="rect" placeholder="商品写真"></image-slot>
+            <span style="position:absolute;top:0;left:0;background:#17422A;color:#fff;font-size:16px;font-weight:700;letter-spacing:0.1em;padding:5px 14px;pointer-events:none">田植機</span>
+          </div>
+          <div style="padding:22px 22px 24px;display:flex;flex-direction:column;gap:7px">
+            <div style="font-size:17px;font-weight:900;color:#22302A;letter-spacing:0.04em">三菱 LE60</div>
+            <div style="font-size:16px;color:#5E6E64;letter-spacing:0.03em">2019年式／使用95時間</div>
+            <div style="font-size:16px;font-weight:700;color:#D7000F;border-top:1px solid #EEF2ED;padding-top:10px;margin-top:6px">価格：お問い合わせください</div>
+            <div style="font-size:16px;color:#8AA192">在庫：湖東営業所</div>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #E8EEE7;display:flex;flex-direction:column">
+          <div style="height:190px;position:relative">
+            <image-slot id="used-4" src="./images/used-4.jpg" shape="rect" placeholder="商品写真"></image-slot>
+            <span style="position:absolute;top:0;left:0;background:#17422A;color:#fff;font-size:16px;font-weight:700;letter-spacing:0.1em;padding:5px 14px;pointer-events:none">乾燥機</span>
+          </div>
+          <div style="padding:22px 22px 24px;display:flex;flex-direction:column;gap:7px">
+            <div style="font-size:17px;font-weight:900;color:#22302A;letter-spacing:0.04em">山本 HD-30</div>
+            <div style="font-size:16px;color:#5E6E64;letter-spacing:0.03em">2015年式／整備済</div>
+            <div style="font-size:16px;font-weight:700;color:#D7000F;border-top:1px solid #EEF2ED;padding-top:10px;margin-top:6px">価格：お問い合わせください</div>
+            <div style="font-size:16px;color:#8AA192">在庫：彦根営業所</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- NEWS -->
+  <section id="news" data-screen-label="NEWS" style="background:#fff;padding:140px 40px">
+    <div style="max-width:1320px;margin:0 auto;display:grid;grid-template-columns:320px minmax(0,1fr);gap:80px">
+      <div>
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <h2 style="font-family:'Outfit',sans-serif;font-size:52px;font-weight:500;color:#17422A;margin:0;letter-spacing:-0.01em;line-height:1">News</h2>
+          <span style="font-size:34px;font-weight:900;color:#D7000F;letter-spacing:0.06em">お知らせ・イベント情報</span>
+          <a href="#news" style="display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:700;letter-spacing:0.1em;color:#17422A;margin-top:28px" style-hover="color:#D7000F"><span style="width:36px;height:1px;background:#17422A;display:block"></span>すべて見る</a>
+        </div>
+      </div>
+      <div>
+        <div style="display:flex;gap:28px;margin-bottom:14px;border-bottom:1px solid #E3EAE2">
+          <sc-for list="{{ tabs }}" as="t" hint-placeholder-count="5">
+            <button onClick="{{ t.onClick }}" style="font-family:'Noto Sans JP',sans-serif;font-size:16px;font-weight:700;letter-spacing:0.06em;padding:10px 2px 14px;cursor:pointer;background:none;border:none;white-space:nowrap;border-bottom:2px solid {{ t.line }};color:{{ t.color }}">{{ t.label }}</button>
+          </sc-for>
+        </div>
+        <div>
+          <sc-for list="{{ news }}" as="n" hint-placeholder-count="5">
+            <a href="#news" style="display:flex;align-items:center;gap:26px;padding:24px 4px;border-bottom:1px solid #EEF2ED;color:#22302A" style-hover="color:#D7000F">
+              <span style="font-family:'Outfit',sans-serif;font-size:16px;color:#8AA192;font-weight:500;width:110px;flex-shrink:0;letter-spacing:0.04em">{{ n.date }}</span>
+              <span style="font-size:16px;font-weight:700;letter-spacing:0.08em;padding:5px 0;width:132px;text-align:center;flex-shrink:0;background:{{ n.tagBg }};color:{{ n.tagColor }};border:1px solid {{ n.tagBorder }}">{{ n.cat }}</span>
+              <span style="font-size:16px;font-weight:500;letter-spacing:0.02em">{{ n.title }}</span>
+            </a>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SHOPS -->
+  <section id="shops" data-screen-label="SHOPS" style="background:#F5F8F4 url('./patterns/grid.svg') repeat;padding:140px 40px">
+    <div style="max-width:1320px;margin:0 auto">
+      <div style="display:flex;align-items:baseline;gap:20px;margin-bottom:18px">
+        <h2 style="font-family:'Outfit',sans-serif;font-size:52px;font-weight:500;color:#17422A;margin:0;letter-spacing:-0.01em;line-height:1">Access</h2>
+        <span style="font-size:34px;font-weight:900;color:#D7000F;letter-spacing:0.06em">県内4拠点でお待ちしています</span>
+      </div>
+      <p style="font-size:16px;color:#5E6E64;margin:0 0 64px;letter-spacing:0.04em">お近くの営業所へ直接ご連絡いただけます。</p>
+      <div style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:44px;align-items:stretch">
+        <sc-if value="{{ showMap }}" hint-placeholder-val="{{ true }}">
+          <div style="background:#E3EAE2;min-height:480px">
+            <iframe src="https://www.google.com/maps?q=滋賀県東近江市佐生町335&amp;z=11&amp;output=embed" style="width:100%;height:100%;min-height:480px;border:0;display:block" loading="lazy" title="営業所マップ"></iframe>
+          </div>
+        </sc-if>
+        <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px">
+          <div style="background:#fff;border:1px solid #E8EEE7;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <div style="font-size:16px;font-weight:700;color:#D7000F;letter-spacing:0.14em">本社</div>
+            <div style="font-size:16px;font-weight:900;color:#17422A;letter-spacing:0.04em">能登川営業所</div>
+            <div style="font-size:16px;color:#4A5A50;line-height:1.8;flex:1">東近江市佐生町335</div>
+            <div style="font-family:'Outfit',sans-serif;font-size:17px;font-weight:600;color:#22302A;letter-spacing:0.03em">0748-42-0811</div>
+            <a href="#shops" style="font-size:16px;font-weight:700;letter-spacing:0.08em;color:#D7000F" style-hover="color:#B4000C">地図・詳細 →</a>
+          </div>
+          <div style="background:#fff;border:1px solid #E8EEE7;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <div style="font-size:16px;font-weight:700;color:#8AA192;letter-spacing:0.14em">東近江市</div>
+            <div style="font-size:16px;font-weight:900;color:#17422A;letter-spacing:0.04em">八日市営業所</div>
+            <div style="font-size:16px;color:#4A5A50;line-height:1.8;flex:1">東近江市小脇町2336</div>
+            <div style="font-family:'Outfit',sans-serif;font-size:17px;font-weight:600;color:#22302A;letter-spacing:0.03em">0748-22-1337</div>
+            <a href="#shops" style="font-size:16px;font-weight:700;letter-spacing:0.08em;color:#D7000F" style-hover="color:#B4000C">地図・詳細 →</a>
+          </div>
+          <div style="background:#fff;border:1px solid #E8EEE7;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <div style="font-size:16px;font-weight:700;color:#8AA192;letter-spacing:0.14em">東近江市</div>
+            <div style="font-size:16px;font-weight:900;color:#17422A;letter-spacing:0.04em">湖東営業所</div>
+            <div style="font-size:16px;color:#4A5A50;line-height:1.8;flex:1">東近江市池之尻町354-2</div>
+            <div style="font-family:'Outfit',sans-serif;font-size:17px;font-weight:600;color:#22302A;letter-spacing:0.03em">0749-46-0120</div>
+            <a href="#shops" style="font-size:16px;font-weight:700;letter-spacing:0.08em;color:#D7000F" style-hover="color:#B4000C">地図・詳細 →</a>
+          </div>
+          <div style="background:#fff;border:1px solid #E8EEE7;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <div style="font-size:16px;font-weight:700;color:#8AA192;letter-spacing:0.14em">彦根市</div>
+            <div style="font-size:16px;font-weight:900;color:#17422A;letter-spacing:0.04em">彦根営業所</div>
+            <div style="font-size:16px;color:#4A5A50;line-height:1.8;flex:1">彦根市東沼波町767</div>
+            <div style="font-family:'Outfit',sans-serif;font-size:17px;font-weight:600;color:#22302A;letter-spacing:0.03em">0749-22-2763</div>
+            <a href="#shops" style="font-size:16px;font-weight:700;letter-spacing:0.08em;color:#D7000F" style-hover="color:#B4000C">地図・詳細 →</a>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:36px;border:1px solid #CFDCCF;padding:18px 28px;display:flex;align-items:center;gap:20px;background:#fff">
+        <span style="font-size:16px;color:#4A5A50;font-weight:500;flex:1;letter-spacing:0.03em">営業カレンダー（休業日）を公開しています。修理のご依頼前にご確認ください。</span>
+        <a href="#news" style="display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:700;letter-spacing:0.1em;color:#17422A;flex-shrink:0" style-hover="color:#D7000F"><span style="width:36px;height:1px;background:#17422A;display:block"></span>営業カレンダーを見る</a>
+      </div>
+    </div>
+  </section>
+  <!-- MAKERS -->
+  <section id="makers" data-screen-label="MAKERS" style="background:#fff url('./patterns/dots.svg') repeat;padding:120px 40px">
+    <div style="max-width:1320px;margin:0 auto">
+      <div style="display:flex;align-items:baseline;gap:20px;margin-bottom:18px">
+        <h2 style="font-family:'Outfit',sans-serif;font-size:52px;font-weight:500;color:#17422A;margin:0;letter-spacing:-0.01em;line-height:1">Makers</h2>
+        <span style="font-size:34px;font-weight:900;color:#D7000F;letter-spacing:0.06em">取扱いメーカー</span>
+      </div>
+      <p style="font-size:16px;color:#5E6E64;margin:0 0 56px;letter-spacing:0.04em">三菱マヒンドラ農機を主軸に、20社以上の製品を取り扱っています。</p>
+      <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid #E3EAE2;border-left:1px solid #E3EAE2">
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">三菱マヒンドラ農機</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">山本製作所</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">静岡製機</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">サタケ</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">丸山製作所</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">小橋工業</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">松山（ニプロ）</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">タカキタ</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">スガノ農機</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">OREC</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#2A3B31;letter-spacing:0.06em">スチール</div>
+        <div style="border-right:1px solid #E3EAE2;border-bottom:1px solid #E3EAE2;padding:30px 12px;text-align:center;font-size:16px;font-weight:700;color:#8AA192;letter-spacing:0.06em">その他14社</div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section id="contact" data-screen-label="CONTACT" style="position:relative;padding:150px 40px;overflow:hidden">
+    <div style="position:absolute;inset:0">
+      <image-slot id="contact-bg" src="./images/contact-bg.jpg" shape="rect" placeholder="背景写真：田園風景・夕景など"></image-slot>
+    </div>
+    <div style="position:absolute;inset:0;background:rgba(13,36,22,0.86);pointer-events:none"></div>
+    <div style="position:relative;max-width:1320px;margin:0 auto;pointer-events:none">
+      <div style="text-align:center;margin-bottom:64px">
+        <h2 style="font-family:'Outfit',sans-serif;font-size:52px;font-weight:500;color:#fff;margin:0 0 12px;letter-spacing:-0.01em;line-height:1">Contact</h2>
+        <div style="font-size:34px;font-weight:900;color:#F0918F;letter-spacing:0.06em;margin-bottom:24px">お気軽にご相談ください</div>
+        <p style="font-size:16px;color:#CFE0D2;margin:0;letter-spacing:0.04em">機械のご相談・修理のご依頼・部品のお取り寄せ、どちらでも承ります。</p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1px 1fr;gap:0;max-width:920px;margin:0 auto;pointer-events:auto">
+        <div style="text-align:center;padding:10px 48px;display:flex;flex-direction:column;gap:12px;justify-content:center">
+          <div style="font-size:16px;font-weight:700;color:#CFE0D2;letter-spacing:0.1em">お電話でのご相談（本社・能登川営業所）</div>
+          <div style="font-family:'Outfit',sans-serif;font-size:38px;font-weight:600;color:#fff;letter-spacing:0.02em;line-height:1.1">0748-42-0811</div>
+          <div style="font-size:16px;color:#9DB5A3;letter-spacing:0.04em">受付 8:30〜17:30（3〜10月）／ 8:30〜17:00（11〜2月）</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.2)"></div>
+        <div style="text-align:center;padding:10px 48px;display:flex;flex-direction:column;gap:14px;justify-content:center">
+          <div style="font-size:16px;font-weight:700;color:#CFE0D2;letter-spacing:0.1em">フォームでのお問い合わせ（24時間受付）</div>
+          <div style="font-size:16px;color:#9DB5A3;letter-spacing:0.04em">修理依頼・購入相談・中古在庫のご質問</div>
+          <a href="#contact" style="background:#D7000F;color:#fff;font-size:16px;font-weight:700;letter-spacing:0.1em;padding:17px 20px;display:block" style-hover="background:#B4000C;color:#fff">お問い合わせフォームへ →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer style="background:#0E2719;color:#B9CDBD;padding:72px 40px 0">
+    <div style="max-width:1320px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:48px;padding-bottom:56px">
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <div style="display:flex;align-items:center;gap:10px">
+          <span style="width:11px;height:11px;background:#D7000F;transform:rotate(45deg);display:block"></span>
+          <span style="font-size:17px;font-weight:900;color:#fff;letter-spacing:0.04em">滋賀三菱農機販売株式会社</span>
+        </div>
+        <div style="font-size:16px;line-height:2">〒521-1215 滋賀県東近江市佐生町335<br>TEL 0748-42-0811 ／ FAX 0748-42-5119</div>
+        <div style="font-size:16px;color:#7E9686;letter-spacing:0.04em">三菱マヒンドラ農機 正規ディーラー ／ 滋賀県三菱農機会 会員</div>
+      </div>
+      <div>
+        <div style="font-family:'Outfit',sans-serif;font-size:16px;font-weight:500;color:#7E9686;margin-bottom:18px;letter-spacing:0.28em">SITEMAP</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 24px;font-size:16px">
+          <a href="#top" style="color:#B9CDBD" style-hover="color:#fff">トップ</a>
+          <a href="#about" style="color:#B9CDBD" style-hover="color:#fff">会社案内</a>
+          <a href="#services" style="color:#B9CDBD" style-hover="color:#fff">取扱商品・サービス</a>
+          <a href="#used" style="color:#B9CDBD" style-hover="color:#fff">中古農機情報</a>
+          <a href="#news" style="color:#B9CDBD" style-hover="color:#fff">お知らせ・イベント</a>
+          <a href="#shops" style="color:#B9CDBD" style-hover="color:#fff">営業所・アクセス</a>
+          <a href="#makers" style="color:#B9CDBD" style-hover="color:#fff">取扱いメーカー</a>
+          <a href="#contact" style="color:#B9CDBD" style-hover="color:#fff">お問い合わせ</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:'Outfit',sans-serif;font-size:16px;font-weight:500;color:#7E9686;margin-bottom:18px;letter-spacing:0.28em">SHOPS</div>
+        <div style="display:flex;flex-direction:column;gap:10px;font-size:16px">
+          <a href="#shops" style="color:#B9CDBD" style-hover="color:#fff">本社・能登川営業所</a>
+          <a href="#shops" style="color:#B9CDBD" style-hover="color:#fff">八日市営業所</a>
+          <a href="#shops" style="color:#B9CDBD" style-hover="color:#fff">湖東営業所</a>
+          <a href="#shops" style="color:#B9CDBD" style-hover="color:#fff">彦根営業所</a>
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,0.1)">
+      <div style="max-width:1320px;margin:0 auto;padding:20px 0;display:flex;justify-content:space-between;font-size:16px;color:#7E9686">
+        <span>Copyright © 滋賀三菱農機販売株式会社 All rights reserved.</span>
+        <a href="#top" style="color:#7E9686" style-hover="color:#fff">プライバシーポリシー</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showTicker&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;表示&quot;},&quot;showMap&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;表示&quot;}}">
+class Component extends DCLogic {
+  state = { tab: 'すべて' };
+  renderVals() {
+    const cats = ['すべて', 'お知らせ', 'イベント', '新製品', '営業カレンダー'];
+    const items = [
+      { date: '2026.03.06', cat: 'お知らせ', title: '三菱マヒンドラ農機の事業方針変更に関するお知らせ', important: true },
+      { date: '2025.05.06', cat: '新製品', title: 'GJE28/35・XC321/323・XC325・XC324・XC448 新型発表' },
+      { date: '2025.01.16', cat: '営業カレンダー', title: '令和7年 営業カレンダーを更新しました' },
+      { date: '2024.12.10', cat: 'イベント', title: '山本製作所「ライスセンターの日」ご案内' },
+      { date: '2024.09.23', cat: 'イベント', title: '滋賀ダイヤモンドフェアー2024 案内状を公開しました' }
+    ];
+    const tab = this.state.tab;
+    return {
+      showTicker: this.props.showTicker ?? true,
+      showMap: this.props.showMap ?? true,
+      tabs: cats.map(c => ({
+        label: c,
+        onClick: () => this.setState({ tab: c }),
+        line: c === tab ? '#D7000F' : 'transparent',
+        color: c === tab ? '#17422A' : '#8AA192'
+      })),
+      news: items.filter(n => tab === 'すべて' || n.cat === tab).map(n => ({
+        ...n,
+        tagBg: n.important ? '#D7000F' : '#fff',
+        tagColor: n.important ? '#fff' : '#17422A',
+        tagBorder: n.important ? '#D7000F' : '#9DB5A3'
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>
